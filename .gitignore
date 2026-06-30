@@ -1,0 +1,38 @@
+```gitignore
+# Virtual Environment
+venv/
+.venv/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Memory & Runtime Data
+memory/chat_history.json
+memory/memory.json
+memory/tasks.json
+
+# User Data
+data/
+
+# IDE
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Build
+build/
+dist/
+*.spec
+```
